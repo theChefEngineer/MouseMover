@@ -7,7 +7,6 @@ package mousemovermark001;
 
 import com.formdev.flatlaf.FlatLightLaf;
 import com.formdev.flatlaf.intellijthemes.FlatMaterialDesignDarkIJTheme;
-import de.javasoft.plaf.synthetica.SyntheticaAluOxideLookAndFeel;
 import java.awt.AWTException;
 import java.awt.Robot;
 import static java.lang.Math.random;
@@ -205,7 +204,9 @@ public class MouseFrame extends javax.swing.JFrame {
             public void run() {
                 try {
                     timeLeft.setText(Integer.toString(counter)); //the timer lable to counter.
+                     jSlider1.setValue(counter);
                     counter--;
+                   
                     Robot robot = new Robot();
                     Random random = new Random();
                     robot.mouseMove(random.nextInt(MAX_X), random.nextInt(MAX_Y));
