@@ -7,7 +7,6 @@ package mousemovermark001;
 
 import com.formdev.flatlaf.intellijthemes.FlatMaterialDesignDarkIJTheme;
 import com.sun.java.swing.plaf.windows.WindowsLookAndFeel;
-import de.javasoft.plaf.synthetica.SyntheticaAluOxideLookAndFeel;
 import java.awt.Color;
 import java.text.ParseException;
 import java.util.logging.Level;
